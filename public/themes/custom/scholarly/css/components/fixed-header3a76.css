@@ -64,4 +64,8 @@
     margin: 0;
     color: #252525;
   }
+  .onscroll #main-navigation ul.menu li a:hover {
+    margin: 0;
+    color: #fff;
+  }
 }
