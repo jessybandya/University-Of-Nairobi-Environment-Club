@@ -175,8 +175,8 @@ function Header() {
                                   </ul>
                                   </li>
                                   <li id="main-menu-link-content4736c30b-bfca-4f45-8637-55c5f3a8e8ff" className="sf-depth-1 menuparent">
-                                  <a style={{cursor:'pointer'}} title="Programmes" className="sf-depth-1 menuparent">Programmes</a>
-                                  <ul>
+                                  <a style={{cursor:'pointer'}} title="Programmes" className="sf-depth-1">Join Us</a>
+                                  {/* <ul>
                                   <li id="main-menu-link-content21e2d18e-b717-4b04-a1c3-68e6ec9a53ab" className="sf-depth-2 sf-no-children">
                                   <a href="#" style={{color:"#fff"}} className="sf-depth-2">Programm1</a>
                                   </li>
@@ -186,8 +186,14 @@ function Header() {
                                   <li id="main-menu-link-content5f4cb585-36b6-4291-97d8-30512290c6d8" className="sf-depth-2 sf-no-children">
                                   <a href="#" style={{color:"#fff"}} className="sf-depth-2">Programm3</a>
                                   </li>
-                                  </ul>
+                                  </ul> */}
                                   </li>
+                                  <li id="main-menu-link-content784c95b2-9d72-4bbd-a918-f0bb1df66a70" className="sf-depth-1 sf-no-children">
+                                              <a style={{cursor:'pointer'}} className="sf-depth-1">Events</a>
+                                              </li>
+                                              <li id="main-menu-link-content784c95b2-9d72-4bbd-a918-f0bb1df66a70" className="sf-depth-1 sf-no-children">
+                                              <a style={{cursor:'pointer'}} className="sf-depth-1">Projects</a>
+                                              </li>
                                   <li id="main-menu-link-content84672266-e2a4-41b4-8245-9b41eb829c92" className="sf-depth-1 menuparent">
                                   <a  style={{cursor:'pointer'}} title="News" className="sf-depth-1 menuparent">News</a>
                                   <ul>
@@ -212,15 +218,11 @@ function Header() {
                                             </li>
                                   </ul>
                                             </li> */}
-                                                    <li id="main-menu-link-content784c95b2-9d72-4bbd-a918-f0bb1df66a70" className="sf-depth-1 sf-no-children">
-                                              <a style={{cursor:'pointer'}} className="sf-depth-1">Projects</a>
-                                              </li>
+
                                             <li id="main-menu-link-content784c95b2-9d72-4bbd-a918-f0bb1df66a70" className="sf-depth-1 sf-no-children">
                                               <a style={{cursor:'pointer'}} className="sf-depth-1">Gallery</a>
                                               </li>
-                                              <li id="main-menu-link-content784c95b2-9d72-4bbd-a918-f0bb1df66a70" className="sf-depth-1 sf-no-children">
-                                              <a style={{cursor:'pointer'}} className="sf-depth-1">Events</a>
-                                              </li>
+
                                             <li id="main-menu-link-content784c95b2-9d72-4bbd-a918-f0bb1df66a70" className="sf-depth-1 sf-no-children">
                                               <a style={{cursor:'pointer'}} className="sf-depth-1">Contact Us</a>
                                               </li>
