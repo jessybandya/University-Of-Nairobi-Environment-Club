@@ -30,11 +30,11 @@ function Footer() {
                       </center>
 
                   <ul className="kilimanjaro_social_links">
-                    <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /> Facebook</a></li>
-                    <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /> Twitter</a></li>
-                    <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true" /> Pinterest</a></li>
+                    {/* <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /> Facebook</a></li> */}
+                    <li><a href="https://twitter.com/environClub_UoN" target="_blank"><i className="fa fa-twitter" aria-hidden="true" /> Twitter</a></li>
+                    {/* <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true" /> Pinterest</a></li>
                     <li><a href="#"><i className="fa fa-youtube" aria-hidden="true" /> YouTube</a></li>
-                    <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true" /> Linkedin</a></li>
+                    <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true" /> Linkedin</a></li> */}
                   </ul>
                 </div>
 
@@ -81,7 +81,7 @@ function Footer() {
             <div className="row">
               <div className="col-12">
                 <center>
-                <p>2022 © All Rights Reserved by <a target="_blank" style={{color:'#fff'}} href="https://www.uonbi.ac.ke/">© University of Nairobi</a></p>
+                <p>2022 © All Rights Reserved by <a target="_blank" style={{color:'#fff'}} href="https://www.uonbi.ac.ke/"> University of Nairobi</a></p>
                 </center>
               </div>
             </div>
