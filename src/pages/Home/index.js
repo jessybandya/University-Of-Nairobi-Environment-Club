@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Modal,Button } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect'
 import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 
 function Home() {
+  const [modalShow, setModalShow] = useState(false);
+  const removeModal = () => {
+    setModalShow(false)
+  }
   return (
    <div >
      <Header />
@@ -16,7 +21,7 @@ function Home() {
               <ul >	{/* SLIDE  */}
                 <li data-index="rs-100" data-transition="parallaxvertical" data-slotamount="default" data-hideafterloop={0} data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="error-404.html" data-rotate={0} data-fstransition="fade" data-fsmasterspeed={1500} data-fsslotamount={7} data-saveperformance="off" data-title="A STUDY ON HAPPINESS" data-param1 data-param2 data-param3 data-param4 data-param5 data-param6 data-param7 data-param8 data-param9 data-param10 data-description="Science says that Women are generally happier">
                   {/* MAIN IMAGE */}
-                  <img  src="https://mombasa.uonbi.ac.ke/sites/mombasa.uonbi.ac.ke/files/inline-images/tree.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax={10} className="rev-slidebg" data-no-retina />
+                  <img  src="assets/images/back-green.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax={10} className="rev-slidebg" data-no-retina />
                   {/* LAYER NR. 1 */}
                   <div className="tp-caption tp-shape tp-shapewrapper " id="slide-100-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames="[{&quot;from&quot;:&quot;opacity:0;&quot;,&quot;speed&quot;:1,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:0,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;}]" data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style={{zIndex: 5, backgroundColor: 'rgba(2, 0, 11, 0.80)', borderColor: 'rgba(0, 0, 0, 0)', borderWidth: '0px'}}> </div>	
                   {/* LAYER NR. 2 */}
@@ -77,10 +82,10 @@ function Home() {
                   </div>
                   <div className="info-bx text-center">
                     <div className="feature-box-sm radius bg-white">
-                    <i className="fa fa-file-text-o text-primary" />
+                    🌳
                     </div>
-                    <h4><a href="#">Approach 1</a></h4>
-                    <a style={{backgroundColor:'#2a68af',color:'#fff'}} href="#" className="btn radius-xl">View More</a>
+                    <h4><a href="#">Passive</a></h4>
+                    <a onClick={() => setModalShow(true)} style={{backgroundColor:'#2a68af',color:'#fff'}}  className="btn radius-xl">View More</a>
                   </div>
                 </div>
               </div>
@@ -91,9 +96,9 @@ function Home() {
                   </div>
                   <div className="info-bx text-center">
                     <div className="feature-box-sm radius bg-white">
-                    <i className="fa fa-file-text-o text-primary" />
+                    🌳
                     </div>
-                    <h4><a href="#">Approach 2</a></h4>
+                    <h4><a href="#">Proactive</a></h4>
                     <a style={{backgroundColor:'#2a68af',color:'#fff'}} href="#" className="btn radius-xl">View More</a>
                   </div>
                 </div>
@@ -105,9 +110,9 @@ function Home() {
                   </div>
                   <div className="info-bx text-center">
                     <div className="feature-box-sm radius bg-white">
-                      <i className="fa fa-file-text-o text-primary" />
+                    🌳
                     </div>
-                    <h4><a href="#">Approach 3</a></h4>
+                    <h4><a href="#">Resposible</a></h4>
                     <a style={{backgroundColor:'#2a68af',color:'#fff'}} href="#" className="btn radius-xl">View More</a>
                   </div>
                 </div>
@@ -115,6 +120,8 @@ function Home() {
             </div>
           </div>
         </div>
+
+
         {/* Our Services END */}
 
 
@@ -122,122 +129,27 @@ function Home() {
 
 
 
-                    {/* Popular Courses */}
-                    <div className="section-area section-sp2 popular-courses-bx">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-12 heading-bx left">
-                    <h2 className="title-head">Our <span>Visions</span></h2>
-                    <p>A little Infos about our visions...</p>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="courses-carousel owl-carousel owl-btn-1 col-12 p-lr0">
-                  <div className="item">
-                      <div className="cours-bx">
-                        <div className="action-box">
-                        <img style={{height: 130,objectFit:'cover'}} src="https://www.voicesofyouth.org/sites/voy/files/images/2019-11/istockphoto-519616538-612x612_0.jpg" alt="" />
-                          <a href="#" className="btn">Read More</a>
-                        </div>
-                        <div className="info-bx text-center">
-                        <span>Vision 1</span>
-                        <hr />
-                          <h5><a href="#">Some Desc</a></h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="cours-bx">
-                        <div className="action-box">
-                        <img style={{height: 130,objectFit:'cover'}} src="https://www.voicesofyouth.org/sites/voy/files/images/2019-11/istockphoto-519616538-612x612_0.jpg" alt="" />
-                          <a href="#" className="btn">Read More</a>
-                        </div>
-                        <div className="info-bx text-center">
-                        <span>Vision 1</span>
-                        <hr />
-                          <h5><a href="#">Some Desc</a></h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="cours-bx">
-                        <div className="action-box">
-                        <img style={{height: 130,objectFit:'cover'}} src="https://www.voicesofyouth.org/sites/voy/files/images/2019-11/istockphoto-519616538-612x612_0.jpg" alt="" />
-                          <a href="#" className="btn">Read More</a>
-                        </div>
-                        <div className="info-bx text-center">
-                        <span>Vision 1</span>
-                        <hr />
-                          <h5><a href="#">Some Desc</a></h5>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="cours-bx">
-                        <div className="action-box">
-                        <img style={{height: 130,objectFit:'cover'}} src="https://www.voicesofyouth.org/sites/voy/files/images/2019-11/istockphoto-519616538-612x612_0.jpg" alt="" />
-                          <a href="#" className="btn">Read More</a>
-                        </div>
-                        <div className="info-bx text-center">
-                        <span>Vision 1</span>
-                        <hr />
-                          <h5><a href="#">Some Desc</a></h5>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Popular Courses END */}
+
             {/* Form */}
             <div className="section-area section-sp1 ovpr-dark bg-fix online-cours" style={{backgroundImage: 'url(https://c8.alamy.com/comp/2D6960A/people-take-care-of-green-earth-planet-vector-flat-cartoon-illustration-for-save-the-earth-day-environment-ecology-nature-protection-abstract-conc-2D6960A.jpg)'}}>
               <div className="container">
                 <div className="row">
                   <div className="col-md-12 text-center text-white">
-                    <h2>OUR COMMUNITY
+                    <h2>UoN ENVIRONMENTAL CLUB
 
-                    <Typewriter
+                    {/* <Typewriter
   options={{
     strings: ['Has Got 9+ Members &', ' Successfully Completed 1+ Projects.'],
     autoStart: true,
     loop: true,
   }}
-/>
+/> */}
                     </h2>
                     <hr style={{height:1, border:"none", color:"#fff", backgroundColor:"#fff",width:'100%'}}/>
                   </div>
                 </div>
                 <div className="mw800 m-auto">
-                  <div className="row">
-                    <div className="col-md-4 col-sm-6">
-                      <div className="cours-search-bx m-b30">
-                        <div className="icon-box">
-                          <h3><i className="ti-user" /><span className="counter">10</span></h3>
-                        </div>
-                        <span className="cours-search-text">10 Members</span>
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-sm-6">
-                      <div className="">
-                        <div className="">
-                          <h3>
-                            {/* <i className="ti-book" /> */}
-                          {/* <span className="counter">2</span> */}
-                          </h3>
-                        </div>
-                        {/* <span className="cours-search-text">2 Completed Projects</span> */}
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-sm-12">
-                      <div className="cours-search-bx m-b30">
-                        <div className="icon-box">
-                          <h3><i className="ti-layout-list-post" /><span className="counter">2</span></h3>
-                        </div>
-                        <span className="cours-search-text">2 Projects</span>
-                      </div>
-                    </div>
-                  </div>
+             <h3 style={{color:'#fff'}}>Some small descriptions on uon enironmental</h3>
                 </div>
               </div>
             </div>
@@ -448,6 +360,27 @@ function Home() {
 
       </div>
      <Footer />
+             <Modal
+              show={modalShow}
+              style={{opacity:1}}
+              onHide={() => setModalShow(false)}
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+      <Modal.Header onClick={() => setModalShow(false)}>
+        close
+      </Modal.Header>
+      <Modal.Body>
+        <h4>Centered Modal</h4>
+        <p>
+          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
+          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
+          consectetur ac, vestibulum at eros.
+        </p>
+      </Modal.Body>
+
+    </Modal>
    </div>
   )
 }
