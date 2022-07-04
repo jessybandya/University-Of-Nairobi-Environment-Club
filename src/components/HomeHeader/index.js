@@ -224,7 +224,7 @@ function HomeHeader() {
                                               </li>
 
                                             <li id="main-menu-link-content784c95b2-9d72-4bbd-a918-f0bb1df66a70" className="sf-depth-1 sf-no-children">
-                                              <a style={{cursor:'pointer'}} className="sf-depth-1">Contact Us</a>
+                                              <a style={{cursor:'pointer'}} href='/contact-us' className="sf-depth-1">Contact Us</a>
                                               </li>
 
                                 </ul>
