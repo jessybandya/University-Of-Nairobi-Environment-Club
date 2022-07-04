@@ -175,7 +175,7 @@ function HomeHeader() {
                                   </ul>
                                   </li>
                                   <li id="main-menu-link-content4736c30b-bfca-4f45-8637-55c5f3a8e8ff" className="sf-depth-1 menuparent">
-                                  <a style={{cursor:'pointer'}} title="Programmes" className="sf-depth-1">Join Us</a>
+                                  <a style={{cursor:'pointer'}} title="Programmes" href='/memberships' className="sf-depth-1">Join Us</a>
                                   {/* <ul>
                                   <li id="main-menu-link-content21e2d18e-b717-4b04-a1c3-68e6ec9a53ab" className="sf-depth-2 sf-no-children">
                                   <a href="#" style={{color:"#fff"}} className="sf-depth-2">Programm1</a>
