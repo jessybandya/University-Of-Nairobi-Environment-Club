@@ -87,7 +87,7 @@
 .widget_categories ul li.active a,
 .widget_archive ul li.active a,
 .widget_archive ul li a:hover{
-    color: var(--primary);
+    color: #007bff;
 }
 /* .widget_categories ul li:before,
 .widget_archive ul li:before,
@@ -212,7 +212,7 @@
 	color:#000;
 }
 .widget .post-title a:hover{
-	color:var(--primary);
+	color:#007bff;
 }
 .recent-posts-entry .widget-post {
     margin-bottom: 20px;

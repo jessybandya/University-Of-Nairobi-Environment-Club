@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Modal,Button } from 'react-bootstrap';
 import Typewriter from 'typewriter-effect'
 import Footer from '../../components/Footer'
-import Header from '../../components/Header'
+import Header from '../../components/HomeHeader'
 
 function Home() {
   const [modalShow, setModalShow] = useState(false);
@@ -149,7 +149,7 @@ function Home() {
                   </div>
                 </div>
                 <div className="mw800 m-auto">
-             <h3 style={{color:'#fff'}}>Some small descriptions on uon enironmental</h3>
+                  <center><h3 style={{color:'#fff'}}><i>The planet's alarm is going off, join climate action NOW.</i></h3></center>
                 </div>
               </div>
             </div>

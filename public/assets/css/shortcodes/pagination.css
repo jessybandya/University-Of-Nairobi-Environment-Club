@@ -99,7 +99,7 @@
 .pagination-bx.gray .pagination > li > span:hover,
 .pagination-bx.gray .pagination > li.active > span,
 .pagination-bx.gray .pagination > li.active > a{
-	background-color:var(--primary);
+	background-color:#007bff;
 	color:#fff;
 }
 @media only screen and (max-width: 991px) {
