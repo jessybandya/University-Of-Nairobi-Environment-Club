@@ -43,14 +43,7 @@ function Footer() {
                 <div className="kilimanjaro_part">
                   <h5>Our Vision</h5>
                   <ul className=" kilimanjaro_widget">
-                    <li><a href="#">Classy</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Creative</a></li>
-                    <li><a href="#">One Page</a></li>
-                    <li><a href="#">Multipurpose</a></li>
-                    <li><a href="#">Minimal</a></li>
-                    <li><a href="#">Classic</a></li>
-                    <li><a href="#">Medical</a></li>
+                    <li><a>create self sustaining environs in and around the University of Nairobi through climate action</a></li>
                   </ul>
                 </div>
 
@@ -58,7 +51,7 @@ function Footer() {
               <div className="col-12 col-md-6 col-lg-3">
                         <div className="kilimanjaro_part">
                             <h5>About Us</h5>
-                            <p>It includes rich features & contents. It's designed & developed based on One Page/ Multi-page Layout,blog themes,world press themes and blogspot. You can use any layout from any demo anywhere.</p>
+                            <p>Environmental Club of UoN is an environmental conservation club made up of students of University of Nairobi.The aim of the club is to champion climate action within and around all the branches of the university to help in creating self sustaining communities.</p>
                         </div>
                      </div>
               <div className="col-12 col-md-6 col-lg-3">
@@ -66,11 +59,11 @@ function Footer() {
                   <h5>Quick Contact</h5>
                   <div className="kilimanjaro_single_contact_info">
                     <h5>Phone:</h5>
-                    <p>+255 255 54 53 52 <br /> +255 255 53 52 51</p>
+                    <p><a style={{color:'#fff'}} href='tel: +254727957118'>+254 727 957118</a></p>
                   </div>
                   <div className="kilimanjaro_single_contact_info">
                     <h5>Email:</h5>
-                    <p>support@email.com <br /> company@email.com</p>
+                    <p><a style={{color:'#fff'}} href='mailto:environmentalclubuon@gmail.com'>environmentalclubuon@gmail.com</a></p>
                   </div>
                 </div>
 

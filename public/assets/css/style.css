@@ -50,7 +50,7 @@
 	padding: 0;
 }
 .secondary-menu .btn-link:hover{
-	color:var(--primary);
+	color:#007bff;
 }
 .secondary-menu .secondary-inner {
     display: inline-block;
@@ -1993,7 +1993,7 @@ button.back-to-top {
 	margin-right: 5px;
 }
 .media-post li a{
-	color:var(--primary);
+	color:#007bff;
 	vertical-align: middle;
 }
 .media-post li a i{
@@ -2055,7 +2055,7 @@ button.back-to-top {
 	font-size:13px;
 }
 .cours-star li.active{
-	color:var(--primary);
+	color:#007bff;
 }
 .cours-more-info .price,
 .cours-more-info .review{
@@ -2107,7 +2107,7 @@ button.back-to-top {
 .recent-news-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next,
 .testimonial-carousel .owl-nav .owl-prev{
-	background-color:var(--primary);
+	background-color:#007bff;
 	margin: 0 5px !important;
 }
 .courses-carousel .owl-nav .owl-next:hover,
@@ -2173,7 +2173,7 @@ button.back-to-top {
     margin-top: 0;
     line-height: 32px;
     padding-left: 10px;
-    border-left: 5px solid var(--primary);
+    border-left: 5px solid #007bff;
 }
 .heading-bx.left p{
 	max-width:500px;
@@ -2223,7 +2223,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e14', end
 }
 .event-time{
 	color: #fff;
-    background-color: var(--primary);
+    background-color: #007bff;
     text-align: center;
     padding: 15px 10px;
     border-radius: 4px;
@@ -2278,7 +2278,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e14', end
 .upcoming-event-carousel.owl-btn-1 .owl-next{
 	margin: 0 100px !important;
     font-size: 20px;
-    background-color: var(--primary);
+    background-color: #007bff;
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -2473,7 +2473,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 .contact-bx .focused .input-group label{
 	top: -8px;
 	font-size: 10px;
-	color:var(--primary);
+	color:#007bff;
 }
 .contact-bx .input-group textarea.form-control{
 	height:120px;
@@ -2662,7 +2662,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 .course-info-list ul li a.active,
 .course-info-list ul li a:hover{
 	color:#fff;
-	background: var(--primary);
+	background: #007bff;
 }
 .course-info-list ul li a i{
 	margin-right:10px;
@@ -2690,7 +2690,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 .course-features li i{
 	margin-right:10px;
 	font-size:16px;
-	color:var(--primary);
+	color:#007bff;
 }
 .course-features li .label{
 	width:60%;
@@ -2717,7 +2717,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 .curriculum-list h5{
 	font-size: 14px;
 	font-weight: 500;
-	color:var(--primary);
+	color:#007bff;
 	margin-bottom: 0px;
 	text-transform: uppercase;
 }
@@ -2794,7 +2794,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 }
 .bar-container [class*="bar"]{
 	height:8px;
-	background:var(--primary);
+	background:#007bff;
 }
 /* MemberShip */
 .pricingtable-inner {
@@ -2932,7 +2932,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 	padding: 10px 30px;
 }
 .profile-tabnav .nav li a.active{
-	background-color: var(--primary);
+	background-color: #007bff;
 	color: #fff;
 	border-radius: 0;
 }
@@ -3037,7 +3037,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 	width: 20px;
 	height: 20px;
 	background-color: transparent;
-	border: 2px solid var(--primary);
+	border: 2px solid #007bff;
 	top: 2px;
 }
 .custom-control-label:after{
@@ -3046,7 +3046,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 	top: 2px;
 }
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
-	background-color: var(--primary);
+	background-color: #007bff;
 }
 .account-container .form-forget{
 	display:flex;
@@ -3067,7 +3067,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#391800', end
 	margin-right:10px;
 }
 .account-form .heading-bx p a{
-	color: var(--primary);
+	color: #007bff;
 	text-decoration: underline;
 	padding-bottom: 0px;
 }
