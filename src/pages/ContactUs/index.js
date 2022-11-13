@@ -33,32 +33,12 @@ function ContactUs() {
           <div className="page-banner contact-page section-sp2">
             <div className="container">
               <div  className="row">
-                <div  className="col-lg-5 col-md-5 m-b30">
-                  <div style={{backgroundColor:'#007bff'}}  className="bg-primary text-white contact-info-bx">
-                    <h2 className="m-b10 title-head">Contact <span>Information</span></h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <div className="widget widget_getintuch">	
-                      <ul>
-                        <li><i className="ti-location-pin" />75k Newcastle St. Ponte Vedra Beach, FL 309382 New York</li>
-                        <li><i className="ti-mobile" />0800-123456 (24/7 Support Line)</li>
-                        <li><i className="ti-email" />info@example.com</li>
-                      </ul>
-                    </div>
-                    <h5 className="m-t0 m-b20">Follow Us</h5>
-                    <ul className="list-inline contact-social-bx">
-                      <li><a href="#" className="btn outline radius-xl"><i className="fa fa-facebook" /></a></li>
-                      <li><a href="#" className="btn outline radius-xl"><i className="fa fa-twitter" /></a></li>
-                      <li><a href="#" className="btn outline radius-xl"><i className="fa fa-linkedin" /></a></li>
-                      <li><a href="#" className="btn outline radius-xl"><i className="fa fa-google-plus" /></a></li>
-                    </ul>
-                  </div>
-                </div>
+
                 <div className="col-lg-7 col-md-7">
                   <form className="contact-bx ajax-form" action="http://educhamp.themetrades.com/demo/assets/script/contact.php">
                     <div className="ajax-message" />
                     <div className="heading-bx left">
                       <h2 className="title-head">Get In <span>Touch</span></h2>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
                     </div>
                     <div className="row placeani">
                       <div className="col-lg-6">

@@ -26,7 +26,6 @@ function Header() {
                       <li><a href="javascript:;" className="btn-link"><i className="fa fa-google-plus" /></a></li>
                       <li><a href="javascript:;" className="btn-link"><i className="fa fa-linkedin" /></a></li>
                       {/* Search Button ==== */}
-                      <li className="search-btn"><button id="quik-search-btn" type="button" className="btn-link"><i className="fa fa-search" /></button></li>
                     </ul>
                   </div>
                 </div>

@@ -16,7 +16,7 @@ function Footer() {
                         <div id="block-scholarly-branding" className="clearfix site-branding block block-system block-system-branding-block">
                           <div className="logo">
                             <a href="index.html" title="Home" rel="home" className="site-branding__logo">
-                              <img src="sites/civil.uonbi.ac.ke/files/best-logo59_0.png" alt="Home" />
+                              <img src="assets/images/logoU.jpg" alt="Home" style={{height:50}} />
                             </a>
                           </div>
                             <div className="site-name site-branding__name">ENVIRONMENTAL CLUB</div>
@@ -31,7 +31,7 @@ function Footer() {
 
                   <ul className="kilimanjaro_social_links">
                     {/* <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /> Facebook</a></li> */}
-                    <li><a href="https://twitter.com/environClub_UoN" target="_blank"><i className="fa fa-twitter" aria-hidden="true" /> Twitter</a></li>
+                    <li><a href="https://twitter.com/_UoNEC?t=U4a9RoBY91sfcRoUiG2pvg&s=09" target="_blank"><i className="fa fa-twitter" aria-hidden="true" /> Twitter</a></li>
                     {/* <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true" /> Pinterest</a></li>
                     <li><a href="#"><i className="fa fa-youtube" aria-hidden="true" /> YouTube</a></li>
                     <li><a href="#"><i className="fa fa-linkedin" aria-hidden="true" /> Linkedin</a></li> */}
@@ -43,7 +43,7 @@ function Footer() {
                 <div className="kilimanjaro_part">
                   <h5>Our Vision</h5>
                   <ul className=" kilimanjaro_widget">
-                    <li><a>create self sustaining environs in and around the University of Nairobi through climate action</a></li>
+                    <li><a>create self sustaining environs in and around the University of Nairobi through environmental action</a></li>
                   </ul>
                 </div>
 
@@ -51,7 +51,9 @@ function Footer() {
               <div className="col-12 col-md-6 col-lg-3">
                         <div className="kilimanjaro_part">
                             <h5>About Us</h5>
-                            <p>Environmental Club of UoN is an environmental conservation club made up of students of University of Nairobi.The aim of the club is to champion climate action within and around all the branches of the university to help in creating self sustaining communities.</p>
+                            <p>
+                            Environmental Club of UoN is an environmental conservation club made up of University of Nairobi students from all branches and faculties.The aim of the club is to champion environmental action within and around all the branches of the university to help in creating self sustaining communities.
+                            </p>
                         </div>
                      </div>
               <div className="col-12 col-md-6 col-lg-3">
